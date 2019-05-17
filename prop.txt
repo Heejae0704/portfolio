@@ -1,0 +1,29 @@
+Hi, I'm Heejae Chang. I'm a product and project manager who also code HTML/CSS/JavaScript.
+
+I research, introduce and integrate cloud PaaS and SaaS solutions to provide a smart yet flexible digital business environment for companies and people. I understand business requirements, project scoping and scheduling, web development and cloud solution. I plan, do, check, and whenever possible, I code. I believe leveraging existing solutions with custom code is the fastest and most efficient way to get exactly what you want.
+
+I'm good with people. I listen to your stories and ideas. I come back with workable solutions to your needs, be it custom development of web applications or customization of market cloud solutions. The important thing is giving you the tools to achieve your objectives and your goals in the best way the latest technology can provide. We can find that together.
+
+Project title: Retro Video Game Quiz
+
+Project description: A small web application using JQuery to challenge the users with a 10-question quiz on retro video game history with responsive design and a11y considerations
+
+Life of technologies used: HTML5, CSS3, JQuery, JavaScript
+Link to live app: https://heejae0704.github.io/retro_game_quiz/
+Link to the repo: https://github.com/Heejae0704/retro_game_quiz
+
+
+Fluxx grant management system implementation
+Okta Single-Sign-On deployment
+Dynamics Online customization and implementation
+Office 365 utilization
+Logic App / MS Flow / Zapier based integration
+
+
+https://www.uplabs.com/posts/personal-portfolio-45b50051-254c-4698-80d3-29fcd0fa5ef5
+
+
+
+https://www.materialpalette.com/brown/blue-grey
+https://balsamiq.cloud/s4s5uo3/p5c4rjy/r2278
+
