@@ -30,6 +30,12 @@
     padding-right: 5px;
   }
 
+  button {
+    border: none;
+    background-color: none;
+    border-radius: none;
+  }
+
   .banner {
       background-color: #D7CCC8;
       color: #212121;
