@@ -52,11 +52,6 @@
     padding: 30px 0;
   }
 
-  h1 {
-
-  }
-
-
   main, footer {
     position: relative;
     top: 50px;
@@ -165,20 +160,35 @@
   }
 
 
-
-
   /* projects */
+
+  h2, h3 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 
   .project-icon {
     width: 100px;
     height: 100px;
   }
 
+  .project-container>p {
+    margin-bottom: 50px;
+  }
+
+  /* business-areas */
+
+  main {
+    margin-bottom: 50px;
+  }
+
+
   /* footer */
 
   address {
     padding-top: 5px;
     padding-bottom: 5px;
+    font-size: 16px;
   }
 
   address:hover {
