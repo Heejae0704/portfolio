@@ -14,27 +14,34 @@
         <nav>
             <button class="nav-hamberger"><i class="fas fa-bars"></i></button>
             <h1>Heejae Chang</h1>
+            <ul class="menu">
+                <li><a href="#bio"><button class="menu-button">Bio</button></a></li>
+                <li><a href="#portfolio"><button class="menu-button">Portfolio</button></a></li>
+                <li><a href="#projects"><button class="menu-button">Projects</button></li></a>
+                <li><a href="#business-area"><button class="menu-button">Business Areas</button></a></li>
+            </ul>
+
         </nav>
         <main>
-            <section class="bio light-primary-color">
+            <section class="bio light-primary-color" id="bio">
                 <img class="bio-pic" src="img/me_bandw_bg.png" alt="Heejae Chang smiling">
                 <header class="bio-header">
                     <h2>Hi, I'm <span class="underline">Heejae Chang.</span><br>I'm a <span class="underline">product and project manager</span> who also code <span class="underline">HTML/CSS/ JavaScript</span></h2>
                 </header>
                 <article class="bio-article">
-                    <p>I research, introduce and integrate cloud PaaS and SaaS solutions to provide a smart yet flexible digital business environment for companies and people. I understand business requirements, project scoping and scheduling, web development and cloud solution. I plan, do, check and whenver possible, I code. I believe leveraging quality solutions with custom code is the most efficient and effective (fast!) way to get exactly what you want.</p>
-                    <p>I'm good with people. I listen to your stories and ideas. I come back with workable solutions to your needs, be in custom development of web applications or customization of market cloud solutions. The important thing is giving you the right tool to achive your goals and objectives in the best way possible. We can find that together.</p>
+                    <p class="bio-article-1">I research, introduce and integrate cloud PaaS and SaaS solutions to provide a smart yet flexible digital business environment for companies and people.<br><br>    I understand business requirements, project scoping and scheduling, web development and cloud solution. I plan, do, check and whenver possible, I code. I believe leveraging quality solutions with custom code is the most efficient and effective (fast!) way to get exactly what you want.</p>
+                    <p class="bio-article-2">I'm good with people. I listen to your stories and ideas. I come back with workable solutions to your needs, be in custom development of web applications or customization of market cloud solutions. The important thing is giving you the right tool to achive your goals and objectives in the best way possible. We can find that together.</p>
                 </article>
                 <div class="bio-buttons">
-                    <button class="button-github">Github&nbsp;&nbsp;<i class="fab fa-github-square" style="font-size: 50px"></i></button><br>
-                    <button class="button-linkedin">LinkedIn&nbsp;&nbsp;<i class="fab fa-linkedin" style="font-size: 50px"></i></button><br>
-                    <button class="button-email">Email&nbsp;&nbsp;<i class="fas fa-envelope-square"style="font-size: 50px"></i></button>
+                    <button class="button-github">Github&nbsp;&nbsp;<i class="fab fa-github-square" style="font-size: 32px"></i></button><br>
+                    <button class="button-linkedin">LinkedIn&nbsp;&nbsp;<i class="fab fa-linkedin" style="font-size: 32px"></i></button><br>
+                    <button class="button-email">Email&nbsp;&nbsp;<i class="fas fa-envelope-square"style="font-size: 32px"></i></button>
                 </div>
             </section>
-            <section class="portfolio">
+            <section class="portfolio" id="portfolio">
                 <header><h2>Web Application Portfolio</h2></header>
                 <article class="retro-video-game-quiz">
-                    <img class="screenshot" src="img/quizapp_02.png" alt="quiz app screenshot" style="max-width: 80%;">
+                    <img class="screenshot" src="img/quizapp_02.png" alt="quiz app screenshot">
                     <h3><span class="underline">Retro Video Game Quiz</span></h3>
                     <p>A small web application using JQuery to challenge the users with a 10-question quiz on retro video game history with responsive design and a11y considerations.</p>
                     <div class="portfolio-buttons">
@@ -43,9 +50,9 @@
                         </div>
                 </article>
             </section>
-            <section class="projects">
+            <section class="projects" id="projects">
                 <header><h2>Cloud Solution Projects</h2></header>
-                <div class="projects-container">
+                <div class="projects-container projects-container-1">
                     <article class="project-container o365">
                         <img class="project-icon" src="img/o365logo.png" alt="office365">
                         <h3>Office365</h3>
@@ -61,6 +68,8 @@
                         <h3>Fluxx</h3>
                         <p>Fluxx Grant Management System planning, design and build to cater entire grant workflow, to the deep level of liquid scripting and custom O365 integration.</p>
                     </article>
+                </div>
+                <div class="projects-container projects-container-2">
                     <article class="project-container tableau">
                         <img class="project-icon" src="img/Tableau-logo.png" alt="dynamics">
                         <h3>Tableau</h3>
@@ -78,16 +87,16 @@
                     </article>
                 </div>
             </section>
-            <section class="business-area">
+            <section class="business-area" id="business-area">
                 <header><h2>Let's work together for...</h2></header>
                 <div class="business-areas-container">
                     <article class="ba-container WAD">
-                            <i class="fas fa-terminal" style="font-size:80px;"></i>
+                            <i class="fas fa-terminal" style="font-size:72px"></i>
                         <h3 class="underline">Web Application Development</h3>
                         <p>Let's build responsive and accessible web applications and integrate your existing systems to enhance ICT experience of your audience.</p>
                     </article>
                     <article class="ba-container CSII">
-                            <i class="fas fa-cloud" style="font-size:80px;"></i>
+                            <i class="fas fa-cloud" style="font-size:72px"></i>
                         <h3 class="underline">Cloud Solution Implementation and Integration</h3>
                         <p>Why invent a new wheel? Let's find out the best options in the market, and see how far we can customize to meet your specific requirements.</p>
                     </article>
