@@ -28,8 +28,9 @@
     color: #212121;
     text-align: center;
     line-height: 1.5;
-    min-width: 320px;
+    min-width: 340px;
     margin-bottom: 0;
+    margin-right: 0;
   }
 
   p {
