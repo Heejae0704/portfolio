@@ -19,14 +19,6 @@
 
 /* bookmark issue */
 
-*[id]:before { 
-  display: block; 
-  content: " "; 
-  margin-top: -65px;
-  height: 65px; 
-  visibility: hidden; 
-}
-
 
 /* elements */
 
@@ -52,6 +44,7 @@
     border: none;
     background-color: transparent;
     border-radius: none;
+    cursor: pointer;
   }
 
   a {
@@ -88,7 +81,7 @@
 
   nav,
   footer {
-    padding: 5px 0;
+    padding: 0;
     background-color: #5D4037;
     color: #FFFFFF
   }
@@ -113,7 +106,7 @@
     color: white;
   }
 
-  .menu {
+  .hidden {
     display: none;
   }
 
@@ -236,6 +229,38 @@
   }
 
 
+  @media screen and (max-width: 567px) {
+
+    .mobile-menu {
+      background-color: #795548;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    *[id]:before { 
+      display: block; 
+      content: " "; 
+      margin-top: -187px;
+      height: 187px; 
+      visibility: hidden; 
+    }
+
+    .menu {
+      display: none;
+    }
+
+    .bio {
+      min-height: 820px;
+    }
+  
+    .bio-header {
+      top: 223px;
+    }
+
+  }
+
   @media screen and (min-width: 568px) and (max-width: 759px) {
     
     .bio-article-2 {
@@ -246,6 +271,18 @@
 
   @media screen and (min-width: 568px) {
 
+    *[id]:before { 
+      display: block; 
+      content: " "; 
+      margin-top: -65px;
+      height: 65px; 
+      visibility: hidden; 
+    }
+
+    .mobile-menu {
+      display: none;
+    }
+
     .nav-hamberger {
       display: none;
     }
@@ -254,12 +291,12 @@
       display: flex;
       position: absolute;
       right: 20px;
-      top: 8px;
+      top: 3px;
       font-size: 16px;
     }
   
     .menu > li {
-      margin-left: 30px;
+      margin-left: 10px;
       margin-right: 10px;
       margin-top: 0;
       margin-bottom: 0;

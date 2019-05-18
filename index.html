@@ -14,13 +14,18 @@
         <nav>
             <button class="nav-hamberger"><i class="fas fa-bars"></i></button>
             <h1>Heejae Chang</h1>
+            <ul class="mobile-menu hidden">
+                <li><a href="#bio"><button class="menu-button">Bio</button></a></li>
+                <li><a href="#portfolio"><button class="menu-button">Portfolio</button></a></li>
+                <li><a href="#projects"><button class="menu-button">Projects</button></li></a>
+                <li><a href="#business-area"><button class="menu-button">Business Areas</button></a></li>
+            </ul>
             <ul class="menu">
                 <li><a href="#bio"><button class="menu-button">Bio</button></a></li>
                 <li><a href="#portfolio"><button class="menu-button">Portfolio</button></a></li>
                 <li><a href="#projects"><button class="menu-button">Projects</button></li></a>
                 <li><a href="#business-area"><button class="menu-button">Business Areas</button></a></li>
             </ul>
-
         </nav>
         <main>
             <section class="bio light-primary-color" id="bio">
@@ -33,9 +38,9 @@
                     <p class="bio-article-2">I'm good with people. I listen to your stories and ideas. I come back with workable solutions to your needs, be in custom development of web applications or customization of market cloud solutions. The important thing is giving you the right tool to achive your goals and objectives in the best way possible. We can find that together.</p>
                 </article>
                 <div class="bio-buttons">
-                    <button class="button-github">Github&nbsp;&nbsp;<i class="fab fa-github-square" style="font-size: 32px"></i></button><br>
-                    <button class="button-linkedin">LinkedIn&nbsp;&nbsp;<i class="fab fa-linkedin" style="font-size: 32px"></i></button><br>
-                    <button class="button-email">Email&nbsp;&nbsp;<i class="fas fa-envelope-square"style="font-size: 32px"></i></button>
+                    <a href="https://github.com/Heejae0704"><button class="button-github">Github&nbsp;&nbsp;<i class="fab fa-github-square" style="font-size: 32px"></i></button></a><br>
+                    <a href="https://www.linkedin.com/in/heejae-chang-98786947/"><button class="button-linkedin">LinkedIn&nbsp;&nbsp;<i class="fab fa-linkedin" style="font-size: 32px"></i></button></a><br>
+                    <a href="mailto:heejae0704@gmail.com"><button class="button-email">Email&nbsp;&nbsp;<i class="fas fa-envelope-square"style="font-size: 32px"></i></button></a>
                 </div>
             </section>
             <section class="portfolio" id="portfolio">
@@ -55,34 +60,34 @@
                 <div class="projects-container projects-container-1">
                     <article class="project-container o365">
                         <img class="project-icon" src="img/o365logo.png" alt="office365">
-                        <h3>Office365</h3>
+                        <h3 class="underline">Office365</h3>
                         <p>Deployment of E1/E3/E5 Office365 solutions including Outlook, OneDrive and SharePoint, utilizing the full strength of cloud version of MS productivity solution suite.</p>
                     </article>
                     <article class="project-container okta">
                         <img class="project-icon" src="img/oktalogo.png" alt="okta">
-                        <h3>Okta</h3>
+                        <h3 class="underline">Okta</h3>
                         <p>Cloud based enterprise SSO integration of legacy on-premise AD, Azure AD and all third-party SaaS solutions for internal and external users.</p>
                     </article>
                     <article class="project-container fluxx">
                         <img class="project-icon" src="img/fluxx-logo.png" alt="tableau">
-                        <h3>Fluxx</h3>
+                        <h3 class="underline">Fluxx</h3>
                         <p>Fluxx Grant Management System planning, design and build to cater entire grant workflow, to the deep level of liquid scripting and custom O365 integration.</p>
                     </article>
                 </div>
                 <div class="projects-container projects-container-2">
                     <article class="project-container tableau">
                         <img class="project-icon" src="img/Tableau-logo.png" alt="dynamics">
-                        <h3>Tableau</h3>
+                        <h3 class="underline">Tableau</h3>
                         <p>Datasource preparation from different external DBs of external services to workbook and dashboard visualization to cater customers' reporting needs.</p>
                     </article>
                     <article class="project-container logicApp">
                             <img class="project-icon" src="img/logicapplogo.png" alt="logicApp">
-                            <h3>Logic App</h3>
+                            <h3 class="underline">Logic App</h3>
                             <p>Seamless workflow automation leveraging Azure and O365 capabilities and API based integration to thousands of SaaS solutions.</p>
                     </article>
                     <article class="project-container dynamics">
                             <img class="project-icon" src="img/dynamics_logo.png" alt="fluxx">
-                            <h3>Dynamics Online</h3>
+                            <h3 class="underline">Dynamics Online</h3>
                             <p>Purpose-built CRM customization with native Outlook integration.</p>
                     </article>
                 </div>
@@ -108,5 +113,10 @@
                 <a href="mailto:heejae0704@gmail.com"><i class="far fa-envelope"></i> Contact Heejae via email</a>
             </address>
         </footer>
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+            <script src="main.js"></script>
     </body>
 </html>
