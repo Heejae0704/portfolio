@@ -265,8 +265,8 @@
     *[id]:before { 
       display: block; 
       content: " "; 
-      margin-top: -187px;
-      height: 187px; 
+      margin-top: -210px;
+      height: 210px; 
       visibility: hidden; 
     }
 
@@ -275,11 +275,11 @@
     }
 
     .bio {
-      min-height: 820px;
+      min-height: 842px;
     }
   
     .bio-header {
-      top: 223px;
+      top: 245px;
       right: 5px;
     }
 
@@ -304,6 +304,10 @@
     }
 
     .mobile-menu {
+      display: none;
+    }
+
+    .mobile-bio {
       display: none;
     }
 
