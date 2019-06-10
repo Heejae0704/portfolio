@@ -19,6 +19,9 @@
 
 /* bookmark issue */
 
+article {
+  margin-bottom: 50px;
+}
 
 /* elements */
 
@@ -289,7 +292,7 @@
 
   }
 
-  @media screen and (min-width: 568px) and (max-width: 759px) {
+  @media screen and (min-width: 568px) and (max-width: 947px) {
     
     .bio-article-2 {
       display: none;
@@ -348,6 +351,7 @@
       left: 150px;
       z-index: 3;
       font-size: 16px;
+      width: 60%
     }
 
     .bio-buttons {
@@ -361,7 +365,7 @@
 
   }
 
-  @media screen and (min-width: 760px) {
+  @media screen and (min-width: 948px) {
 
     .bio-pic {
       position: absolute;
