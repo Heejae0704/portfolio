@@ -208,6 +208,7 @@ article {
   }
 
 
+
   /* projects */
 
   h2, h3 {
@@ -233,6 +234,8 @@ article {
 
   .ba-container {
     margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
 
 
@@ -405,7 +408,50 @@ article {
     }
 
 
+    .description {
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 60%;
+    }
+
   }
 
 
+  @media screen and (max-width: 1198px) {
   
+    .background-decoration {
+      display: none;
+    }
+  
+  
+  }
+
+  @media screen and (min-width: 1199px) {
+  
+
+    .background-decoration {
+      position: absolute;
+      top: 400px;
+      right: -100px;
+      width: 500px;
+      height: 500px;
+      background-color: #FFEB3B;
+      border-radius: 50%;
+      border: none;
+      z-index: 2;
+
+    }
+    
+    #portfolio {
+      position: relative;
+      margin-top: 65px;
+      z-index: 3;
+      background-color: white;
+    }
+
+    .portfolio-header {
+      margin-top: -65px;
+    }
+  
+  }
